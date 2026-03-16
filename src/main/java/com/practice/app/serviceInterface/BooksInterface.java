@@ -11,4 +11,5 @@ public interface BooksInterface {
     BookDTO updateBook(Long id, BookDTO bookDTO);
     Page<Books> getAll(int page, int size);
     Page<Books> search(BookDTO bookDTO);
+    Books findByIsbn(String isbn);
 }

@@ -5,6 +5,7 @@ import com.practice.app.entity.Books;
 import com.practice.app.serviceInterface.BooksInterface;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -36,6 +37,16 @@ public class BooksController {
     @PostMapping("/search")
     public Page<Books> searchBooks(@RequestBody BookDTO bookDTO){
         return booksInterface.search(bookDTO);
+    }
+
+    @GetMapping("/{isbn}")
+    public ResponseEntity<Books> getBooksByIsbn(@PathVariable String isbn){
+        Books books = booksInterface.findByIsbn(isbn);
+        if(books != null){
+            return ResponseEntity.ok(books);
+        }else {
+           return ResponseEntity.notFound().build();
+        }
     }
 
 

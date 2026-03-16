@@ -85,4 +85,9 @@ public class BooksImpl implements BooksInterface {
 
         return repo.findAll(specification,pageable);
     }
+
+    @Override
+    public Books findByIsbn(String isbn) {
+        return repo.findByIsbn(isbn);
+    }
 }
