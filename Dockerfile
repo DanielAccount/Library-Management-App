@@ -6,6 +6,5 @@ WORKDIR /app
 
 COPY target/*.jar app.jar
 
-
 # Step 5: Specify the command to run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
