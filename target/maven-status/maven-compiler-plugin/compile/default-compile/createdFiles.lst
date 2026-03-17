@@ -1,0 +1,11 @@
+com\practice\app\dto\BookDTO$BookDTOBuilder.class
+com\practice\app\repository\BookRepo.class
+com\practice\app\entity\Books$BooksBuilder.class
+com\practice\app\entity\Books.class
+com\practice\app\dto\BookDTO.class
+com\practice\app\specification\BookSpecification.class
+com\practice\app\AppApplication.class
+com\practice\app\controller\BooksController.class
+com\practice\app\enums\Genre.class
+com\practice\app\serviceImpl\BooksImpl.class
+com\practice\app\serviceInterface\BooksInterface.class

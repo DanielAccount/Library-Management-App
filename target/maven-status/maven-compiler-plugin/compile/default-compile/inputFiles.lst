@@ -1,0 +1,9 @@
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\AppApplication.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\controller\BooksController.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\dto\BookDTO.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\entity\Books.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\enums\Genre.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\repository\BookRepo.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\serviceImpl\BooksImpl.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\serviceInterface\BooksInterface.java
+D:\Practice\Library Management\Library-Management-App-main\Library-Management-App-main\src\main\java\com\practice\app\specification\BookSpecification.java
